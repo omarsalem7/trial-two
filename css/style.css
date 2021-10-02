@@ -5,7 +5,8 @@
     align-items: center;
     height: 400px;
     width: 100%;
-    background-color: black;
+    background-color: #000;
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
 
 }
 
@@ -23,4 +24,19 @@
     color: red;
     font-size: 30px;
     margin-top: -10px;
+}
+
+#navbar{
+    height: 80px;
+    background-color: #be3144;
+}
+.link{
+    display: flex;
+    justify-content: right;
+    margin-right: 20px;
+}
+.link-text{
+    color: white;
+    margin-right: 20px;
+    text-underline-offset: none;
 }
