@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 600px;
+  height: 100vh;
   width: 100%;
   background-color: black;
 }
@@ -12,6 +12,7 @@
   flex-direction: column;
   margin-top: 20px;
   align-items: center;
+  padding-top: 100px;
 }
 .h1 {
   color: white;
@@ -23,7 +24,7 @@
   margin-top: -10px;
 }
 #projects {
-  height: 600px;
+  height: 700px;
   background-color: #45567d;
   margin-top: -42px;
   color: #f0f0f0;
@@ -35,7 +36,7 @@
 }
 .continer-items {
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: auto auto auto;
   grid-gap: 10px;
   background-color: #45567d;
   padding: 10px;
@@ -72,23 +73,34 @@
   opacity: 0.7;
 }
 
-#navbar{
-    display: flex;
-    justify-content: right;
-    height: 100px;
-    background-color: #be3144;
+#navbar {
+  display: flex;
+  justify-content: right;
+  height: 100px;
+  background-color: #be3144;
+  position: fixed;
+  width: 100%;
+}
+.nave_link {
+  display: flex;
+  text-align: right;
+  margin-right: 20px;
+}
+.link-text {
+  color: rgba(255, 255, 255, 0);
+}
+.link {
+  color: white;
+  font-size: 30px;
+  margin-right: 20px;
+}
+#profile-link {
+  color: #f0f0f0;
+}
 
+@media only screen and (max-width: 600px) {
+  .continer-items {
+    display: grid;
+    grid-template-columns: auto;
+  }
 }
-.nave_link{
-    display: flex;
-    text-align: right;
-    margin-right: 20px;
-}
-.link-text{
-    color: rgba(255, 255, 255, 0);
-}
- .link{
-     color: white;
-     font-size: 30px;
-     margin-right: 20px;
- }
