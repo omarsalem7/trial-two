@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 400px;
+  height: 600px;
   width: 100%;
   background-color: black;
 }
@@ -71,3 +71,24 @@
 .card button:hover {
   opacity: 0.7;
 }
+
+#navbar{
+    display: flex;
+    justify-content: right;
+    height: 100px;
+    background-color: #be3144;
+
+}
+.nave_link{
+    display: flex;
+    text-align: right;
+    margin-right: 20px;
+}
+.link-text{
+    color: rgba(255, 255, 255, 0);
+}
+ .link{
+     color: white;
+     font-size: 30px;
+     margin-right: 20px;
+ }
