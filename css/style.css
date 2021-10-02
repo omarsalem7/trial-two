@@ -1,26 +1,73 @@
-
 #welcome-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 400px;
-    width: 100%;
-    background-color: black;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 400px;
+  width: 100%;
+  background-color: black;
 }
 
-#text{
-    display: flex;
-    flex-direction: column;
-    margin-top: 20px;
-    align-items: center;
+#text {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  align-items: center;
 }
-.h1{
-    color: white;
-    font-size: 50px;
+.h1 {
+  color: white;
+  font-size: 50px;
 }
-.h3{
-    color: red;
-    font-size: 30px;
-    margin-top: -10px;
+.h3 {
+  color: red;
+  font-size: 30px;
+  margin-top: -10px;
+}
+#projects {
+  height: 600px;
+  background-color: #45567d;
+  margin-top: -42px;
+  color: #f0f0f0;
+}
+.project-tile {
+  text-align: center;
+  padding-top: 3%;
+  font-size: 50px;
+}
+.continer-items {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  background-color: #45567d;
+  padding: 10px;
+}
+.item {
+  background: url("https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg");
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
 }
